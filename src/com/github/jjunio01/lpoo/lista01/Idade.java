@@ -33,9 +33,9 @@ public class Idade {
 		return informacoes;
 	}
 	
-	public static int calcular(int[] datas) {
+	public static int calcular(int[] anos) {
 		
-		return datas[0] - datas[1];
+		return anos[0] - anos[1];
 	}
 
 }
