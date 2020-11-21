@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.github.jjunio01.lpoo.lista01;
 
 import java.util.Scanner;
