@@ -26,6 +26,7 @@ public class Altura {
 			System.out.println("Digite o valor da " + (i+ 1) +"ª altura");
 			alturas[i] = scan.nextDouble();
 		}
+		scan.close();
 		return alturas;
 	}
 	
@@ -41,5 +42,6 @@ public class Altura {
 		media = soma / 5;
 		System.out.println("A média das alturas é: " + media );
 	}
+	
 
 }

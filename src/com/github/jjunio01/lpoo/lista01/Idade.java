@@ -30,6 +30,7 @@ public class Idade {
 		
 		int[] informacoes = {anoAtual, anoNascimento};
 		
+		scan.close();
 		return informacoes;
 	}
 	
