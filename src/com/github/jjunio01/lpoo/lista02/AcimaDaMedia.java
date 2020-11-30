@@ -24,6 +24,7 @@ public class AcimaDaMedia {
 			notas[i] = scan.nextDouble();
 			soma += notas[i];
 		}
+		scan.close();
 		media = soma / notas.length;
 		
 		for (double nota: notas) {

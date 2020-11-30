@@ -29,6 +29,7 @@ public class ConsultaNomeLista {
 			nome = scan.nextLine();
 			nomes.add(nome);
 		}
+		scan.close();
 		
 		while (consulta) {
 			System.out.print("Digite o nome de uma pessoa cadastrada: ");
