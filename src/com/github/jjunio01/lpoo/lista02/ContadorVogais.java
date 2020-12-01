@@ -19,6 +19,7 @@ public class ContadorVogais {
 		
 		System.out.println("Digite uma frase: ");
 		frase = scan.nextLine();
+		scan.close();
 		frase = frase.toLowerCase();
 		for (int i = 0; i < frase.length(); i++) {
 			
