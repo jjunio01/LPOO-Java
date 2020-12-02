@@ -27,6 +27,7 @@ public class TesteRetangulo {
 		retangulo = new Retangulo(base, altura);
 		area = retangulo.calcularArea();
 		perimetro = retangulo.calcularPerimetro();
+		scan.close();
 		
 		System.out.println("Retângulo: \n"
 				+ "Base: " + base
