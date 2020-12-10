@@ -14,7 +14,6 @@ public class CalcularIdades {
 		Pessoa[] arrayPessoas = new Pessoa[4];
 		String nome;
 		int idade;
-		Pessoa pessoa;
 
 		for (int i = 0; i < arrayPessoas.length; i++) {
 			nome = JOptionPane.showInputDialog("Digite o nome da " + (i + 1) + " pessoa.");
