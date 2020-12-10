@@ -2,8 +2,6 @@ package com.github.jjunio01.lpoo.lista04;
 
 import javax.swing.JOptionPane;
 
-import com.github.jjunio01.lpoo.lista03.Pessoa;
-
 /**
  * @author JJunio
  *
